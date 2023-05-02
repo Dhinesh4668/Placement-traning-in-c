@@ -1,12 +1,12 @@
 #include<stdio.h>
 #include<math.h>
 int main() {
-    int a,b;
+    int a,y2k;
     printf("enter the 2 values:");
-    scanf("%d %d",&a,&b);
-    printf("\n Add :",a+b);
-    printf("\n Dev :",a/b);
-    printf("\n Sub :",a-b);
-    printf("\n Mul :",a*b);
-    printf("\n Mod :",a%b);
+    scanf("%d %d",&a,&y2k);
+    printf("\n Add %d:",a+y2k);
+    printf("\n Dev %d:",a/y2k);
+    printf("\n Sub %d:",a-y2k);
+    printf("\n Mul %d:",a*y2k);
+    printf("\n Mod %d:",a%y2k);
 }
