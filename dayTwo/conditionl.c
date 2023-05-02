@@ -12,6 +12,7 @@ void main() {
 
     if(a>b && a>c){
         printf("%d the a value is biger");
+        printf("the a=%d bigger then b=%d");
     }else if(b>a && b>c){
         printf("b value is bigger ");
     }else{
