@@ -40,14 +40,15 @@ void main() {
         depsoit=500;
         printf("your bill is : %d",total);
     }
-
+    //tax cal
     tax=(total*4)/100;
     printf("\nYour tax ammount is :%f",tax);
+    //surecharege calculation
     scharge=((total*2)/100)-depsoit;
     printf("\nYour surecharge is :%f",scharge);
 
     printf("\n******************************************");
     total_bill=total+scharge;
-    printf("\n The total amount is :$ %f /-",total_bill);
+    printf("\n The total amount is :$%f/-",total_bill);
     printf("\n******************************************");
 }
