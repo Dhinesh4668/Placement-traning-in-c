@@ -9,6 +9,12 @@ void main(){
         printf("\n%d",n3);
         n1=n2;
         n2=n3;
-//        hai saran
     }
+//do{
+//    n3=n2+n1;
+//    i++;
+//    n1=n2;
+//    n2=n3;
+//}while(i<=n);
+//    printf("\n%d",n3);
 }
