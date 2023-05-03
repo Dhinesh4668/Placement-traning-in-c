@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main(){
     int n1=0,n2=1,n3,n,i=2;
-    printf("enter u r number :");
+    printf("enter u r linit :");
     scanf("%d",&n);
     while(i<=n){
         i++;
