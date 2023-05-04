@@ -13,7 +13,8 @@ int main(){
         printf("\t %d",arr[i]);
         for(i=0;i<n;i++){
             for(j=i+i;j<n;j++){
-                if (arr[i]<arr[j])
+                //main looping
+                if (arr[i]>arr[j])
                 {
                     /* code */
                     t=arr[i];
@@ -22,7 +23,7 @@ int main(){
                 }
             }
         }
-        printf("\n sort array is desending is :");
+        printf("\n sort array is asending is :");
         for(i=0;i<n;i++){
             printf("\t%d",arr[i]);
         }
