@@ -11,11 +11,11 @@ int main(){
     scanf("%d",&n);
 
     for(i=0;i<n;i++){
-        printf("\nenter the employe of %d employe:",i+1);
+        printf("\nenter the employe of %d:",i+1);
         scanf("%d",&obj[i].empno);
         printf("\nenter the name of the employe %d:",i+1);
         scanf("%s",&obj[i].ename);
-        printf("\nenter the salary employe of %d employe:",i+1);
+        printf("\nenter the salary employe of %d:",i+1);
         scanf("%d",&obj[i].bsal);
 
 
